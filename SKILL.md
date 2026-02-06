@@ -85,3 +85,19 @@ Detailed guides in `{baseDir}/references/`:
 - [Convex Docs](https://docs.convex.dev)
 - [Convex Dashboard](https://dashboard.convex.dev)
 - [Convex Discord](https://convex.dev/community)
+
+## Convex Rules (LLM Reference)
+
+The `{baseDir}/references/convex-rules.txt` file contains comprehensive coding guidelines for Convex:
+
+- Function syntax (queries, mutations, actions, internal functions)
+- HTTP endpoint syntax
+- Validators and types
+- Schema guidelines
+- Pagination patterns
+- Full-text search
+- File storage
+- Scheduling and crons
+- Complete chat-app example with AI integration
+
+Load this file when writing Convex code for syntax and patterns.
