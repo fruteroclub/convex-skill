@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "organization": "Reggie Labs",
+  "date": "January 2026",
+  "abstract": "The Convex skill provides comprehensive knowledge for building modern backend applications with Convex. This knowledge-only skill helps agents understand and implement Convex patterns including database schemas with TypeScript validators, reactive queries that automatically sync with clients, mutations with transactional guarantees, actions for external integrations, authentication flows, file storage operations, and scheduled functions. Agents should use this skill when writing Convex backend code, designing database schemas, implementing real-time features, or needing guidance on Convex best practices and patterns.",
+  "keywords": [
+    "convex",
+    "database",
+    "backend",
+    "real-time",
+    "typescript",
+    "schema",
+    "queries",
+    "mutations",
+    "actions",
+    "reactive"
+  ],
+  "capabilities": [
+    "convex-schema-design",
+    "convex-queries",
+    "convex-mutations",
+    "convex-actions",
+    "convex-auth-patterns",
+    "convex-file-storage",
+    "convex-scheduling"
+  ],
+  "references": [
+    "https://docs.convex.dev/",
+    "https://github.com/get-convex/convex-backend"
+  ]
+}
