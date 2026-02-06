@@ -1,12 +1,8 @@
 ---
 name: convex
 description: Build Convex backends with queries, mutations, actions, and schemas. Use when writing Convex code, defining database schemas, implementing real-time sync, or needing Convex patterns.
-license: MIT
-metadata:
-  clawdbot:
-    emoji: "⚡"
-  moltbot:
-    emoji: "⚡"
+homepage: https://docs.convex.dev
+metadata: {"openclaw":{"emoji":"⚡"}}
 ---
 
 # convex
@@ -78,26 +74,14 @@ This skill covers:
 
 ## References
 
-This skill provides three detailed reference documents. Load the appropriate one based on your task:
+Detailed guides in `{baseDir}/references/`:
 
-**Core Database Operations** — `references/core-database.md`
-Schema definitions, query functions, mutation functions. Use this for:
-- Defining tables and field validators (v.string, v.number, v.id, etc.)
-- Writing query functions with indexing and pagination
-- Implementing mutation operations (insert, patch, replace, delete)
+- `core-database.md` — Schemas, validators, queries, mutations, indexes
+- `advanced-features.md` — Actions, file storage, scheduling, authentication
+- `patterns-best-practices.md` — Common patterns, error handling, optimization
 
-**Advanced Features** — `references/advanced-features.md`
-Actions, authentication, file storage, scheduling, subscriptions. Use this for:
-- Action functions for external API calls (ctx.runMutation, ctx.runQuery)
-- Authentication with ctx.auth.getUserIdentity() and authorization patterns
-- File storage with generateUploadUrl() and storageId workflow
-- Scheduling with cronJobs() and interval/cron/named schedules
-- Real-time subscriptions with useQuery/useMutation hooks
+## Resources
 
-**Patterns & Best Practices** — `references/patterns-best-practices.md`
-Error handling, TypeScript types, code organization, pitfalls. Use this for:
-- Structured error handling with ConvexError
-- TypeScript types from _generated/dataModel (Doc<>, Id<>)
-- Code organization patterns with model/ layer and internal functions
-- Environment variables via process.env in Convex functions
-- Common pitfalls and how to avoid them
+- [Convex Docs](https://docs.convex.dev)
+- [Convex Dashboard](https://dashboard.convex.dev)
+- [Convex Discord](https://convex.dev/community)
